@@ -1,0 +1,84 @@
+/* 
+	CHALLENGE
+	- Add a google font : DONE
+	- Add a background image: DONE
+	- add a repeating background image; DONE
+	
+	-- KICK ASS BRO
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab|Permanent+Marker|Concert+One');
+body {
+    background: url("bg.jpg");
+    background-repeat: repeat;
+    background-color: #f2f2f2;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+}
+nav {
+    font-family: 'Concert One';
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    display: block;
+}
+h2 {
+    font-family: 'Amatic SC', cursive;
+}
+.words1 {
+    height: auto;
+    font-family: 'Josefin Slab', serif;
+    border-left: 1px dashed red;
+    background-color: lightgrey; /*NOTE!!!! START LEARNING HEX CODES  https://www.colorcodehex.com/ */
+    padding: 10px;
+}
+.words2 {
+    font-family: 'Josefin Slab', serif;
+    border-left: 1px dashed red;
+    background-color: lightgrey; /*NOTE!!!! START LEARNING HEX CODES  https://www.colorcodehex.com/ */
+    padding: 10px;
+    height: 250px;
+}
+footer {
+    text-align: center;
+    font-family: 'Concert One';
+    padding: 5px;
+    display: block;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.youtube {
+    width: 50%;
+    margin: 0 auto;
+    right: 0px;
+    padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #D34A48;
+}
+#bill {
+    float: right;
+    right: 0px;
+}
